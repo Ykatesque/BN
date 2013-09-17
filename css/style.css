@@ -1,0 +1,113 @@
+body {
+  background-image: -webkit-linear-gradient(rgb(206, 226, 163), rgb(165, 201, 86));
+  min-height: 900px;
+  font-family: sans-serif;
+}
+
+
+a {
+  text-decoration: none;
+  color: grey;
+
+}
+
+li:hover {
+
+}
+
+#main {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  width: 90%;
+  height: 80%;
+  margin: 40px auto 0 auto;
+
+  padding-top: 30px;
+  background-image:url('../images/very-light-grey-noise.jpg');
+
+}
+
+#services {
+  clear: both;
+border: 1px solid green;
+
+}
+
+#active {
+  border: 1px solid black;
+  height: 200px;
+
+
+
+}
+
+#search{
+  float: right;
+  padding-top: 10px;
+  padding-right: 20px;
+  border: 1px solid red;
+}
+
+ul {
+
+  padding: 20px;
+  padding-left: 40px; /* add media queries for small sizes */
+  margin: 30px auto 0 auto;
+  border: 1px solid red;
+
+
+}
+
+li {
+
+  display: inline-block;
+
+  text-align: center;
+  width: 80px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 5px;
+
+  border: 1px solid black;
+
+
+}
+
+li:last-child {
+  margin-right: 0;
+}
+
+li:nth-child(9), li:nth-child(8) {
+
+
+
+}
+li img:hover, .active{
+  filter:none;
+  -webkit-filter: grayscale(0);
+  opacity: 1;
+
+}
+
+
+
+
+
+img {
+  filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  opacity: 0.7;
+  width: 50px;
+  height: 50px;
+
+}
+
+
+p {
+  padding-top: 5px;
+  font-size: 12px;
+}
+
+
