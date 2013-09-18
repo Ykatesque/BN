@@ -9,21 +9,108 @@
 
   <div id="main">
     <div id="active">
-    Your services.
+    <div id="asana" class="info hidden">
+
+      <h3>Asana Plugin Settings</h3>
+      <div class="options">
+        <div class="single">
+          <label for="1" class="options_label">
+          <input type="checkbox" id="1"> When you click "Create Issue" on an error in Bugsnag</label>
+        </div>
+
+        <div class ="single">
+          <label for="2" class="options_label">
+          <input type="checkbox" id="2">
+          When we receive the first exception of a new type in this project</label>
+        </div>
+
+        <div class ="single">
+          <label for="3" class="options_label">
+          <input type="checkbox" id="3">
+          When we receive the first exception of a new type in this project</label>
+        </div>
+
+      </div>
+      <div class="settings">
+        <div class="setting">
+        <h6>API Key - Link</h6>
+        <input type="textfield" name="asana_api_key" class="textf">
+      </div>
+      <div class ="setting">
+        <h6>Workspace or organization name</h6>
+        <input type="textfield" name="asana_org_name" class="textf">
+      </div>
+      <div class ="setting">
+        <h6>Project name</h6>
+        <input type="textfield" name="asana_org_name" class="textf">
+      </div>
+
+      <input type="submit" class="submit">
+
+      </div>
+
     </div>
-    <div id="search">
-      <input type="search" name="googlesearch">
+
+
+    <div id="bugify" class="info hidden">
+
+      <h3>Bugify Plugin Settings</h3>
+      <div class="options">
+        <div class="single">
+          <label for="1" class="options_label">
+          <input type="checkbox" id="1"> When you click "Create Issue" on an error in Bugsnag</label>
+        </div>
+
+        <div class ="single">
+          <label for="2" class="options_label">
+          <input type="checkbox" id="2">
+          When we receive the first exception of a new type in this project</label>
+        </div>
+
+        <div class ="single">
+          <label for="3" class="options_label">
+          <input type="checkbox" id="3">
+          When we receive the first exception of a new type in this project</label>
+        </div>
+
+      </div>
+      <div class="settings">
+        <div class="setting">
+        <h6>API Key - Link</h6>
+        <input type="textfield" name="asana_api_key" class="textf">
+      </div>
+      <div class ="setting">
+        <h6>Workspace or organization name</h6>
+        <input type="textfield" name="asana_org_name" class="textf">
+      </div>
+      <div class ="setting">
+        <h6>Project name</h6>
+        <input type="textfield" name="asana_org_name" class="textf">
+      </div>
+
+      <input type="submit" class="submit">
+
+      </div>
+
     </div>
+
+
+
+    </div>
+
     <div id="services">
+      <div id="search">
+        <input type="search" name="googlesearch">
+      </div>
     <ul>
       <li>
-        <a href="#">
+        <a href="#" data-target="#asana">
           <img src="images/asana_icon.png">
           <p>Asana</p>
         </a>
       </li>
       <li>
-        <a href="#">
+        <a href="#" data-target="#bugify">
           <img src="images/bugify_icon.png">
           <p>Bugify</p>
         </a>
